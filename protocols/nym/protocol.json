@@ -1,0 +1,54 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Nym Network",
+  "slug": "nym",
+  "appSlug": "nym",
+  "status": "active",
+  "denom": "nym",
+  "stage": 1,
+  "validatorAddress": "nvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawlfdx8d",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "rgb(226,134,76)",
+      "linear-gradient(127deg, #E2864C 0%, #DB465A 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#e2864c\",endColorstr=\"#db465a\",GradientType=1)",
+    "color": "#DD5A56"
+  },
+  "links": {
+    "website": "https://nymtech.net/",
+    "telegram": "https://t.me/nymchan",
+    "discord": "",
+    "twitter": "https://twitter.com/nymproject",
+    "medium": "https://medium.com/nymtech",
+    "github": "https://github.com/nymtech",
+    "youtube": "https://www.youtube.com/nymtech",
+    "email": "contact@nymtech.net",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/nym/nym-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "49.99px"
+      }
+    }
+  }
+}

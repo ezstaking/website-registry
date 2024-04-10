@@ -1,0 +1,52 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Juno",
+  "slug": "juno",
+  "appSlug": "juno",
+  "status": "active",
+  "denom": "juno",
+  "stage": 1,
+  "validatorAddress": "junovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawjt8r7s",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "rgb(255,164,163)",
+      "linear-gradient(307deg, #FFA4A3 0%, #FE706F 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#ffa4a3\",endColorstr=\"#fe706f\",GradientType=1)",
+    "color": "#FF9897"
+  },
+  "links": {
+    "website": "https://www.junonetwork.io/",
+    "telegram": "https://t.me/JunoNetwork",
+    "discord": "https://discord.com/invite/QcWPfK4gJ2",
+    "twitter": "https://twitter.com/JunoNetwork",
+    "github": "https://github.com/CosmosContracts",
+    "medium": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/juno/juno-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "OmniFlix Network",
+  "slug": "omniflix",
+  "appSlug": "omniflix",
+  "status": "active",
+  "denom": "flix",
+  "stage": 1,
+  "validatorAddress": "omniflixvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtg305r",
+  "validateSince": "",
+  "colors": {
+    "background": [
+    ],
+    "filter": "",
+    "color": "#DD5A56"
+  },
+  "links": {
+    "website": "https://omniflix.network/",
+    "telegram": "https://t.me/OmniFlixNetwork",
+    "discord": "",
+    "twitter": "https://twitter.com/OmniFlixNetwork",
+    "instagram": "https://www.instagram.com/OmniFlixNetwork/",
+    "facebook": "https://www.facebook.com/OmniFlixNetwork",
+    "email": "info@omniflix.network",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/omniflixhub/omniflixhub-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

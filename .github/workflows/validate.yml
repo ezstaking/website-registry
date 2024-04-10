@@ -19,11 +19,11 @@ jobs:
           path: '!(*.schema.json|README*|.gitignore)'
           pattern: '^[a-zA-Z0-9._-]*[^\.]$'
 
-      - name: Validate chains.json schema
+      - name: Validate protocols.json schema
         uses: walbo/validate-json@v1.1.0
         with:
-          files: protocols/**/**/chain.json
-          schema: protocols/chain.schema.json
+          files: protocols/**/protocol.json
+          schema: protocols/protocol.schema.json
           schema-version: draft-07
           fail-on-missing-schema: true
           print-valid-files: true

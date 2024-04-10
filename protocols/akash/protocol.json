@@ -1,0 +1,51 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Akash",
+  "slug": "akash",
+  "appSlug": "akash",
+  "status": "active",
+  "denom": "akt",
+  "stage": 1,
+  "validatorAddress": "akashvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawua3kt9",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(127deg, #FF414B 0%, #010101 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "website": "https://akash.network",
+    "telegram": "https://t.me/AkashNW",
+    "discord": "https://discord.com/invite/akash",
+    "twitter": "https://x.com/akashnet_",
+    "medium": "https://akash.network/blog",
+    "github": "https://github.com/ovrclk",
+    "docs": "https://docs.akash.network"
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/akash/akash-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "43.33px"
+      }
+    }
+  }
+}

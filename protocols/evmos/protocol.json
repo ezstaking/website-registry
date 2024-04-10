@@ -1,0 +1,50 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Evmos",
+  "slug": "evmos",
+  "appSlug": "evmos",
+  "status": "active",
+  "denom": "evmos",
+  "stage": 1,
+  "validatorAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(122deg, #6421A4 0%, #E26B35 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/evmos/evmos-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "30.99px"
+      }
+    }
+  }
+}

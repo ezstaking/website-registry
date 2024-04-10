@@ -1,0 +1,54 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Cosmos",
+  "slug": "cosmos",
+  "appSlug": "cosmoshub",
+  "status": "active",
+  "denom": "atom",
+  "stage": 1,
+  "validatorAddress": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "#511F60",
+      "linear-gradient(53deg, #511F60 0%, #A2F6FF 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#511f60\",endColorstr=\"#a2f6ff\",GradientType=1)",
+    "color": "#98DCEC"
+  },
+  "links": {
+    "website": "https://cosmos.network/",
+    "telegram": "https://t.me/cosmosproject",
+    "discord": "https://discord.gg/cosmosnetwork",
+    "twitter": "https://twitter.com/cosmos",
+    "reddit": "https://reddit.com/r/cosmosnetwork",
+    "youtube": "https://www.youtube.com/c/CosmosProject",
+    "medium": "https://blog.cosmos.network/",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/cosmoshub/cosmoshub-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Passage",
+  "slug": "passage",
+  "appSlug": "passage",
+  "status": "active",
+  "denom": "psg",
+  "stage": 1,
+  "validatorAddress": "pasgvaloper1qna9kjh9cq9sa0pd3c9ltfjjtxs5knsysl3cc2",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #726852 0%, #653B2E 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "email": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/passage/passage-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Stride",
+  "slug": "stride",
+  "appSlug": "stride",
+  "status": "active",
+  "denom": "strd",
+  "stage": 1,
+  "validatorAddress": "stridevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawm6kh6u",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #D32F79 0%, #530C2C 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "email": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/stride/stride-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

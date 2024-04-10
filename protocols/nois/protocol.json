@@ -1,0 +1,50 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Nois",
+  "slug": "nois",
+  "appSlug": "nois",
+  "status": "active",
+  "denom": "nois",
+  "stage": 1,
+  "validatorAddress": "noisvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtvauhe",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(303deg, #DFDBED 0%, #0B0913 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/nois/nois-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

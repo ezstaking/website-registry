@@ -1,0 +1,50 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "FIRMACHAIN",
+  "slug": "firmachain",
+  "appSlug": "firmachain",
+  "status": "active",
+  "denom": "fct",
+  "stage": 1,
+  "validatorAddress": "firmavaloper13ee8f0s90a3x0c7yfduxkv4hvrdwsuv74llup9",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(125deg, #194270 0%, #010311 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/firmachain/firmachain-logo--colorless.svg",
+      "size": {
+        "width": "43.24px",
+        "height": "50px"
+      }
+    }
+  }
+}

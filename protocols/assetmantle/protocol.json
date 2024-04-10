@@ -1,0 +1,51 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "AssetMantle",
+  "slug": "assetmantle",
+  "appSlug": "assetmantle",
+  "status": "active",
+  "denom": "mntl",
+  "stage": 1,
+  "validatorAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(121deg, #F5B41D 0%, #191307 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "website": "https://assetmantle.one",
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/assetmantle/assetmantle-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "33.34px"
+      }
+    }
+  }
+}

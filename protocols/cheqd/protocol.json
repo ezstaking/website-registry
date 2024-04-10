@@ -1,0 +1,50 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Cheqd",
+  "slug": "cheqd",
+  "appSlug": "cheqd",
+  "status": "active",
+  "denom": "cheqd",
+  "stage": 1,
+  "validatorAddress": "cheqdvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw2vq30x",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(127deg, #EB5E2A 0%, #EF8A38 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/cheqd/cheqd-logo--colorless.svg",
+      "size": {
+        "width": "45.28px",
+        "height": "50px"
+      }
+    }
+  }
+}

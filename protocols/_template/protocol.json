@@ -1,0 +1,61 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "",
+  "slug": "",
+  "appSlug": "",
+  "status": "upcoming",
+  "denom": "",
+  "stage": 0,
+  "validatorAddress": "",
+  "validateSince": "",
+  "colors": {
+    "background": [],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "website": "",
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "github": "",
+    "medium": "",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    },
+    "png": {
+      "url": "",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

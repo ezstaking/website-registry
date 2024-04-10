@@ -1,11 +1,12 @@
 {
   "name": "website-registry",
   "version": "1.0.0",
-  "description": "EZ Staking ∞ Website Registry \uD83D\uDCDA",
-  "main": "index.js",
+  "description": "EZ Staking ∞ Website Registry 📚",
   "scripts": {
-    "make": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/make.ts",
-    "utils:gen:predoc": "npx jsonschema2mk --schema protocols/protocol.schema.json >PREDOC.md"
+    "build": "./scripts/build.sh && yarn make",
+    "make": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/make.mjs",
+    "utils:gen:doc": "npx jsonschema2mk --schema protocols/protocol.schema.json > README.md",
+    "validate": "ajv validate -s protocols/protocol.schema.json -d protocols/akash/protocol.json"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,10 @@
   "devDependencies": {
     "dotenv": "^16.4.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "jsonschema2mk": "^1.9.0",
+    "node-jq": "^4.3.1"
   }
 }

@@ -1,0 +1,51 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Archway",
+  "slug": "archway",
+  "appSlug": "archway",
+  "status": "active",
+  "denom": "arch",
+  "stage": 1,
+  "validatorAddress": "archwayvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwt839t",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(127deg, #FF9263 0%, #FF4D00 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "website": "https://archway.io",
+    "telegram": "https://t.me/archway_hq",
+    "discord": "https://discord.gg/5FVvx3WGfa",
+    "twitter": "https://twitter.com/archwayhq",
+    "medium": "https://blog.archway.io",
+    "github": "https://github.com/archway-network",
+    "docs": "https://docs.archway.io"
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/archway/archway-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Gravity Bridge",
+  "slug": "gravity-bridge",
+  "appSlug": "gravitybridge",
+  "status": "active",
+  "denom": "graviton",
+  "stage": 1,
+  "validatorAddress": "gravityvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwle3df",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #0E32A1 0%, #1C1E1F 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/gravitybridge/gravitybridge-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "19.04px"
+      }
+    }
+  }
+}

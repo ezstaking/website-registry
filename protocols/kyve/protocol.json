@@ -1,0 +1,51 @@
+{
+  "$schema": "../protocol.schema.json",
+  "name": "Kyve",
+  "slug": "kyve",
+  "appSlug": "kyve",
+  "status": "active",
+  "denom": "kyve",
+  "stage": 1,
+  "validatorAddress": "kyvevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw76lp8n",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #5C9288 0%, #293134 100%)"
+    ],
+    "filter": "",
+    "color": ""
+  },
+  "links": {
+    "telegram": "",
+    "discord": "",
+    "twitter": "",
+    "email": "",
+    "medium": "",
+    "github": "",
+    "docs": ""
+  },
+  "info": {
+    "rewards": "",
+    "slashing": "",
+    "inflation": "",
+    "unbonding": "",
+    "compounding": ""
+  },
+  "stakingGuides": {
+    "medium": ""
+  },
+  "faq": {
+    "en": [],
+    "fr": [],
+    "es": []
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/kyve/kyve-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "43.66px"
+      }
+    }
+  }
+}

@@ -1,17 +1,290 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "title": "EZ Staking ∞ Website Registry \uD83D\uDCDA\n\n",
-  "description": "EZ Staking ∞ Website Registry \uD83D\uDCDA\n\n",
+  "title": "EZ Staking ∞ Website Registry \uD83D\uDCDA",
+  "description": "EZ Staking ∞ Website Registry \uD83D\uDCDA",
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "$schema"
+    "$schema",
+    "name",
+    "slug",
+    "appSlug",
+    "status",
+    "denom",
+    "stage",
+    "validatorAddress",
+    "validateSince",
+    "links",
+    "info",
+    "stakingGuides",
+    "faq",
+    "logo",
+    "colors"
   ],
   "properties": {
     "$schema": {
       "type": "string",
-      "enum": ["../protocol.schema.json"]
+      "enum": [
+        "../protocol.schema.json"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "appSlug": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "inactive",
+        "upcoming"
+      ]
+    },
+    "denom": {
+      "type": "string"
+    },
+    "stage": {
+      "type": "number",
+      "enum": [
+        0,
+        1
+      ],
+      "description": "[0: testnet, 1: mainnet]"
+    },
+    "validatorAddress": {
+      "type": "string"
+    },
+    "validateSince": {
+      "type": "string"
+    },
+    "links": {
+      "$ref": "#/$defs/links"
+    },
+    "info": {
+      "$ref": "#/$defs/info"
+    },
+    "stakingGuides": {
+      "$ref": "#/$defs/stakingGuides"
+    },
+    "faq": {
+      "$ref": "#/$defs/faq"
+    },
+    "logo": {
+      "$ref": "#/$defs/logo"
+    },
+    "colors": {
+      "$ref": "#/$defs/colors"
     }
   },
-  "$defs": {}
+  "$defs": {
+    "links": {
+      "type": "object",
+      "properties": {
+        "website": {
+          "type": "string"
+        },
+        "telegram": {
+          "type": "string"
+        },
+        "discord": {
+          "type": "string"
+        },
+        "twitter": {
+          "type": "string"
+        },
+        "github": {
+          "type": "string"
+        },
+        "medium": {
+          "type": "string"
+        },
+        "reddit": {
+          "type": "string"
+        },
+        "youtube": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "linkedin": {
+          "type": "string"
+        },
+        "instagram": {
+          "type": "string"
+        },
+        "facebook": {
+          "type": "string"
+        },
+        "docs": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "i18nMessage": {
+      "type": "object",
+      "required": [
+        "en",
+        "fr",
+        "es"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "fr": {
+          "type": "string"
+        },
+        "es": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "faqItem": {
+      "type": "object",
+      "required": ["question", "answer"],
+      "properties": {
+        "question": {
+          "type": "string"
+        },
+        "answer": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "faq": {
+      "type": "object",
+      "required": [
+        "en",
+        "fr",
+        "es"
+      ],
+      "properties": {
+        "en": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/faqItem"
+          }
+        },
+        "fr": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/faqItem"
+          }
+        },
+        "es": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/faqItem"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "info": {
+      "type": "object",
+      "required": [
+        "rewards",
+        "slashing",
+        "inflation",
+        "unbonding",
+        "compounding"
+      ],
+      "properties": {
+        "rewards": {
+          "type": "string"
+        },
+        "slashing": {
+          "type": "string"
+        },
+        "inflation": {
+          "type": "string"
+        },
+        "unbonding": {
+          "type": "string"
+        },
+        "compounding": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "stakingGuides": {
+      "type": "object",
+      "required": [
+        "medium"
+      ],
+      "properties": {
+        "medium": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "logoSize": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {
+        "width": {
+          "type": "string"
+        },
+        "height": {
+          "type": "string"
+        }
+      }
+    },
+    "logoDetails": {
+      "type": "object",
+      "required": ["url", "size"],
+      "properties": {
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "size": {
+          "$ref": "#/$defs/logoSize"
+        }
+      }
+    },
+    "logo": {
+      "type": "object",
+      "properties": {
+        "png": {
+          "$ref": "#/$defs/logoDetails"
+        },
+        "svg": {
+          "$ref": "#/$defs/logoDetails"
+        }
+      },
+      "additionalProperties": false
+    },
+    "colors": {
+      "type": "object",
+      "required": ["background", "filter", "color"],
+      "properties": {
+        "background": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "filter": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        }
+      }
+    }
+  }
 }
