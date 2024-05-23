@@ -15,6 +15,7 @@ export default function () {
       status,
       slug,
       appSlug,
+      validatorAddress,
       denom,
       colors,
       logo
@@ -25,6 +26,7 @@ export default function () {
       status,
       slug,
       appSlug,
+      validatorAddress,
       denom,
       colors,
       logo
