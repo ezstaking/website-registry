@@ -4,7 +4,7 @@
   "slug": "passage",
   "appSlug": "passage",
   "status": "active",
-  "denom": "psg",
+  "symbol": "pasg",
   "stage": 1,
   "validatorAddress": "pasgvaloper1qna9kjh9cq9sa0pd3c9ltfjjtxs5knsysl3cc2",
   "validateSince": "",
@@ -16,32 +16,34 @@
     "color": ""
   },
   "links": {
+    "website": "https://www.passage.io/",
     "telegram": "",
-    "discord": "",
-    "twitter": "",
+    "discord": "https://discord.gg/passage",
+    "twitter": "https://twitter.com/passageio",
+    "medium": "https://www.passage.io/blog",
+    "reddit": "",
+    "youtube": "",
     "email": "",
-    "medium": "",
-    "github": "",
-    "docs": ""
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/envadiv",
+    "docs": "",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.5,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/passage/passage-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/passage/images/passage-logo--colorless.svg",
       "size": {
         "width": "50px",
         "height": "50px"

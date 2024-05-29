@@ -4,7 +4,7 @@
   "slug": "evmos",
   "appSlug": "evmos",
   "status": "active",
-  "denom": "evmos",
+  "symbol": "evmos",
   "stage": 1,
   "validatorAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
   "validateSince": "",
@@ -12,35 +12,38 @@
     "background": [
       "linear-gradient(122deg, #6421A4 0%, #E26B35 100%)"
     ],
-    "filter": "",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#6421A4\",endColorstr=\"#E26B35\",GradientType=1)",
     "color": ""
   },
   "links": {
+    "website": "https://evmos.org/",
     "telegram": "",
-    "discord": "",
-    "twitter": "",
-    "medium": "",
-    "github": "",
-    "docs": ""
+    "discord": "https://discord.com/invite/evmos",
+    "twitter": "https://twitter.com/EvmosOrg",
+    "medium": "https://evmos.blog/",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/tharsis/evmos",
+    "docs": "https://evmos.dev/",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.5,
+      10
+    ],
+    "inflation": 0,
+    "unbonding": 14,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/evmos/evmos-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/evmos/images/evmos-logo--colorless.svg",
       "size": {
         "width": "50px",
         "height": "30.99px"

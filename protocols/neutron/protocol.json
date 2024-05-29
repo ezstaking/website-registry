@@ -4,7 +4,7 @@
   "slug": "neutron",
   "appSlug": "neutron",
   "status": "active",
-  "denom": "ntrn",
+  "symbol": "ntrn",
   "stage": 1,
   "validatorAddress": "neutronvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9xzv7k",
   "validateSince": "",
@@ -12,35 +12,38 @@
     "background": [
       "linear-gradient(124deg, #59A187 0%, #212C28 100%) "
     ],
-    "filter": "",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#59A187\",endColorstr=\"#212C28\",GradientType=1)",
     "color": ""
   },
   "links": {
-    "telegram": "",
-    "discord": "",
-    "twitter": "",
+    "website": "https://www.neutron.org/",
+    "telegram": "https://t.me/neutron_community",
+    "discord": "https://discord.com/invite/zRT2ZkQsxA",
+    "twitter": "https://twitter.com/Neutron_org",
     "medium": "",
-    "github": "",
-    "docs": ""
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/neutron-org",
+    "docs": "",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/neutron/neutron-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/neutron/images/neutron-logo--colorless.svg",
       "size": {
         "width": "50px",
         "height": "50px"

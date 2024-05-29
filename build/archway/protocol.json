@@ -1,0 +1,52 @@
+{
+  "name": "Archway",
+  "slug": "archway",
+  "appSlug": "archway",
+  "status": "active",
+  "symbol": "arch",
+  "stage": 1,
+  "validatorAddress": "archwayvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwt839t",
+  "validateSince": "2023-07-07",
+  "colors": {
+    "background": [
+      "linear-gradient(127deg, #FF9263 0%, #FF4D00 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#FF9263\",endColorstr=\"#FF4D00\",GradientType=1)",
+    "color": ""
+  },
+  "links": {
+    "website": "https://archway.io",
+    "telegram": "https://t.me/archway_hq",
+    "discord": "https://discord.gg/5FVvx3WGfa",
+    "twitter": "https://twitter.com/archwayhq",
+    "medium": "https://blog.archway.io",
+    "reddit": "https://www.reddit.com/r/Archway",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/archway-network",
+    "docs": "https://docs.archway.io",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/archway/images/archway-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

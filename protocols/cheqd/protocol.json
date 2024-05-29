@@ -4,7 +4,7 @@
   "slug": "cheqd",
   "appSlug": "cheqd",
   "status": "active",
-  "denom": "cheqd",
+  "symbol": "cheq",
   "stage": 1,
   "validatorAddress": "cheqdvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw2vq30x",
   "validateSince": "",
@@ -12,35 +12,38 @@
     "background": [
       "linear-gradient(127deg, #EB5E2A 0%, #EF8A38 100%)"
     ],
-    "filter": "",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#EB5E2A\",endColorstr=\"#EF8A38\",GradientType=1)",
     "color": ""
   },
   "links": {
-    "telegram": "",
-    "discord": "",
-    "twitter": "",
-    "medium": "",
-    "github": "",
-    "docs": ""
+    "website": "https://cheqd.io/",
+    "telegram": "https://t.me/cheqd",
+    "discord": "https://discord.com/invite/zjNCNZRZb6",
+    "twitter": "https://twitter.com/cheqd_io",
+    "medium": "https://blog.cheqd.io/",
+    "reddit": "",
+    "youtube": "https://www.youtube.com/@cheqd",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/cheqd-identity/",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/cheqd",
+    "docs": "https://learn.cheqd.io/",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      1,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 14,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/cheqd/cheqd-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/cheqd/images/cheqd-logo--colorless.svg",
       "size": {
         "width": "45.28px",
         "height": "50px"

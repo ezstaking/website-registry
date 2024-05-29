@@ -4,7 +4,7 @@
   "slug": "comdex",
   "appSlug": "comdex",
   "status": "active",
-  "denom": "cmdx",
+  "symbol": "cmdx",
   "stage": 1,
   "validatorAddress": "comdexvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw0u289r",
   "validateSince": "",
@@ -12,35 +12,38 @@
     "background": [
       "linear-gradient(127deg, #F93E59 0%, #021A32 100%)"
     ],
-    "filter": "",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#F93E59\",endColorstr=\"#021A32\",GradientType=1)",
     "color": ""
   },
   "links": {
-    "telegram": "",
-    "discord": "",
-    "twitter": "",
-    "medium": "",
-    "github": "",
-    "docs": ""
+    "website": "https://comdex.one/",
+    "telegram": "https://t.me/ComdexChat",
+    "discord": "https://discord.gg/comdexofficial",
+    "twitter": "https://twitter.com/ComdexOfficial",
+    "medium": "https://blog.comdex.one/",
+    "reddit": "https://www.reddit.com/r/ComdexOne/",
+    "youtube": "",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/comdexofficial/",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/comdex-official",
+    "docs": "https://docs.comdex.one/",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/comdex/comdex-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/comdex/images/comdex-logo--colorless.svg",
       "size": {
         "width": "50px",
         "height": "50px"

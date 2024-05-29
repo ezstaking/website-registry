@@ -1,0 +1,53 @@
+{
+  "name": "Ki Chain",
+  "slug": "kichain",
+  "appSlug": "kichain",
+  "status": "active",
+  "symbol": "xki",
+  "stage": 1,
+  "validatorAddress": "kivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7wd99l",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "rgb(16,14,14)",
+      "linear-gradient(307deg, #100E0E 0%, #505050 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#100E0E\",endColorstr=\"#505050\",GradientType=1)",
+    "color": "#1D1C1C"
+  },
+  "links": {
+    "website": "https://foundation.ki/",
+    "telegram": "https://t.me/KiFoundation",
+    "discord": "https://discord.gg/vqWc7MGd87",
+    "twitter": "https://twitter.com/Ki_Foundation",
+    "github": "https://github.com/KiFoundation",
+    "medium": "https://medium.com/ki-foundation",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/kifoundation/",
+    "instagram": "",
+    "facebook": "",
+    "docs": "",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/kichain/images/kichain-logo--colorless.svg",
+      "size": {
+        "width": "35.03px",
+        "height": "50px"
+      }
+    }
+  }
+}

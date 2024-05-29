@@ -1,0 +1,52 @@
+{
+  "name": "Stargaze",
+  "slug": "stargaze",
+  "appSlug": "stargaze",
+  "status": "active",
+  "symbol": "stars",
+  "stage": 1,
+  "validatorAddress": "starsvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawyx37ju",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #FAF4AA 0%, #77ABBF 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#FAF4AA\",endColorstr=\"#77ABBF\",GradientType=1)",
+    "color": ""
+  },
+  "links": {
+    "website": "https://www.stargaze.zone/",
+    "telegram": "https://t.me/stargazezone",
+    "discord": "https://discord.gg/stargaze",
+    "twitter": "https://twitter.com/stargazezone",
+    "medium": "https://medium.com/stargaze-protocol",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/public-awesome",
+    "docs": "https://docs.stargaze.zone/",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 14,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/stargaze/images/stargaze-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

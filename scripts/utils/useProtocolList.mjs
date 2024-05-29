@@ -16,7 +16,7 @@ export default function () {
       slug,
       appSlug,
       validatorAddress,
-      denom,
+      symbol,
       colors,
       logo
     } = loadJson(`./../../protocols/${files[i]}/protocol.json`);
@@ -27,7 +27,7 @@ export default function () {
       slug,
       appSlug,
       validatorAddress,
-      denom,
+      symbol,
       colors,
       logo
     }

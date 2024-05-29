@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "EZ Staking ∞ Website Registry 📚",
   "scripts": {
-    "build": "./scripts/build.sh && yarn make",
+    "build": "./scripts/build.sh && npm run make",
     "make": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/make.mjs",
     "utils:gen:doc": "npx jsonschema2mk --schema protocols/protocol.schema.json > README.md",
     "validate": "ajv validate -s protocols/protocol.schema.json -d protocols/akash/protocol.json"

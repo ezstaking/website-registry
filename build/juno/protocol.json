@@ -1,0 +1,53 @@
+{
+  "name": "Juno",
+  "slug": "juno",
+  "appSlug": "juno",
+  "status": "active",
+  "symbol": "juno",
+  "stage": 1,
+  "validatorAddress": "junovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawjt8r7s",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "rgb(255,164,163)",
+      "linear-gradient(307deg, #FFA4A3 0%, #FE706F 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#FFA4A3\",endColorstr=\"#FE706F\",GradientType=1)",
+    "color": "#FF9897"
+  },
+  "links": {
+    "website": "https://www.junonetwork.io/",
+    "telegram": "https://t.me/JunoNetwork",
+    "discord": "https://discord.com/invite/QcWPfK4gJ2",
+    "twitter": "https://twitter.com/JunoNetwork",
+    "github": "https://github.com/CosmosContracts",
+    "medium": "https://medium.com/@JunoNetwork",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "docs": "https://docs.junonetwork.io/",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 28,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/juno/images/juno-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

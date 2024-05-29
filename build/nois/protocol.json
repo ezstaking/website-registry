@@ -1,0 +1,52 @@
+{
+  "name": "Nois",
+  "slug": "nois",
+  "appSlug": "nois",
+  "status": "active",
+  "symbol": "nois",
+  "stage": 1,
+  "validatorAddress": "noisvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtvauhe",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(303deg, #DFDBED 0%, #0B0913 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#DFDBED\",endColorstr=\"#0B0913\",GradientType=1)",
+    "color": ""
+  },
+  "links": {
+    "website": "https://nois.network/",
+    "telegram": "",
+    "discord": "https://chat.nois.network/",
+    "twitter": "https://twitter.com/NoisNetwork",
+    "medium": "",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/noislabs",
+    "docs": "https://docs.nois.network/",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/nois/images/nois-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

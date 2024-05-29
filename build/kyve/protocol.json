@@ -1,0 +1,52 @@
+{
+  "name": "Kyve",
+  "slug": "kyve",
+  "appSlug": "kyve",
+  "status": "active",
+  "symbol": "kyve",
+  "stage": 1,
+  "validatorAddress": "kyvevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw76lp8n",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #5C9288 0%, #293134 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#5C9288\",endColorstr=\"#293134\",GradientType=1)",
+    "color": ""
+  },
+  "links": {
+    "website": "https://www.kyve.network/",
+    "telegram": "https://t.me/kyvenet",
+    "discord": "https://discord.com/invite/kyve",
+    "twitter": "https://twitter.com/KYVENetwork",
+    "medium": "https://blog.kyve.network/",
+    "reddit": "https://www.reddit.com/r/kyve/",
+    "youtube": "https://www.youtube.com/channel/UCThrQRlVd2KKy2-e0tBgfpQ",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/kyve/",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/KYVENetwork",
+    "docs": "https://docs.kyve.network/",
+    "commonwealth": "https://commonwealth.im/kyve/discussions"
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.1,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/kyve/images/kyve-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "43.66px"
+      }
+    }
+  }
+}

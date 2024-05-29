@@ -4,44 +4,46 @@
   "slug": "assetmantle",
   "appSlug": "assetmantle",
   "status": "active",
-  "denom": "mntl",
+  "symbol": "mntl",
   "stage": 1,
   "validatorAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
-  "validateSince": "",
+  "validateSince": "2022-04-18",
   "colors": {
     "background": [
       "linear-gradient(121deg, #F5B41D 0%, #191307 100%)"
     ],
-    "filter": "",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#F5B41D\",endColorstr=\"#191307\",GradientType=1)",
     "color": ""
   },
   "links": {
     "website": "https://assetmantle.one",
-    "telegram": "",
-    "discord": "",
-    "twitter": "",
-    "medium": "",
-    "github": "",
-    "docs": ""
+    "telegram": "https://t.me/assetmantlechat",
+    "discord": "https://discord.gg/BSdBQ4495d",
+    "twitter": "https://twitter.com/AssetMantle",
+    "medium": "https://blog.assetmantle.one/",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/AssetMantle",
+    "docs": "https://docs.assetmantle.one/",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/assetmantle/assetmantle-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/assetmantle/images/assetmantle-logo--colorless.svg",
       "size": {
         "width": "50px",
         "height": "33.34px"

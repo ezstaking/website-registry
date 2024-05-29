@@ -4,7 +4,7 @@
   "slug": "",
   "appSlug": "",
   "status": "upcoming",
-  "denom": "",
+  "symbol": "",
   "stage": 0,
   "validatorAddress": "",
   "validateSince": "",
@@ -25,22 +25,19 @@
     "email": "",
     "linkedin": "",
     "instagram": "",
-    "facebook": ""
+    "facebook": "",
+    "docs": "",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {

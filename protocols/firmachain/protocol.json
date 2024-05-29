@@ -4,7 +4,7 @@
   "slug": "firmachain",
   "appSlug": "firmachain",
   "status": "active",
-  "denom": "fct",
+  "symbol": "fct",
   "stage": 1,
   "validatorAddress": "firmavaloper13ee8f0s90a3x0c7yfduxkv4hvrdwsuv74llup9",
   "validateSince": "",
@@ -12,35 +12,38 @@
     "background": [
       "linear-gradient(125deg, #194270 0%, #010311 100%)"
     ],
-    "filter": "",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#194270\",endColorstr=\"#010311\",GradientType=1)",
     "color": ""
   },
   "links": {
-    "telegram": "",
+    "website": "https://firmachain.org/",
+    "telegram": "https://t.me/firmachain_announcement",
     "discord": "",
-    "twitter": "",
-    "medium": "",
-    "github": "",
-    "docs": ""
+    "twitter": "https://twitter.com/firmachain",
+    "medium": "https://medium.com/firmachain",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/FirmaChain",
+    "docs": "https://firmachain.org/whitepaper_EN.pdf",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/firmachain/firmachain-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/firmachain/images/firmachain-logo--colorless.svg",
       "size": {
         "width": "43.24px",
         "height": "50px"

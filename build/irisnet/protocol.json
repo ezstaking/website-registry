@@ -1,0 +1,53 @@
+{
+  "name": "IRISnet",
+  "slug": "irisnet",
+  "appSlug": "irisnet",
+  "status": "active",
+  "symbol": "iris",
+  "stage": 1,
+  "validatorAddress": "iva1j8er22jnq767x5pfq6cda8duw4y4a09jyl63y3",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "#E0365A",
+      "linear-gradient(309deg, #E0365A 0%, #148FD3 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#E0365A\",endColorstr=\"#148FD3\",GradientType=1)",
+    "color": "#9A5483"
+  },
+  "links": {
+    "website": "https://www.irisnet.org/",
+    "telegram": "https://t.me/irisnetwork",
+    "discord": "https://discord.gg/bmhu9F9xbX",
+    "twitter": "https://twitter.com/irisnetwork",
+    "github": "https://github.com/irisnet/irishub",
+    "medium": "https://medium.com/irisnet-blog",
+    "reddit": "",
+    "youtube": "",
+    "email": "contact@irisnet.org",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "docs": "https://www.irisnet.org/docs",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/irisnet/images/irisnet-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

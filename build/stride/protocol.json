@@ -1,0 +1,52 @@
+{
+  "name": "Stride",
+  "slug": "stride",
+  "appSlug": "stride",
+  "status": "active",
+  "symbol": "strd",
+  "stage": 1,
+  "validatorAddress": "stridevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawm6kh6u",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #D32F79 0%, #530C2C 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#D32F79\",endColorstr=\"#530C2C\",GradientType=1)",
+    "color": ""
+  },
+  "links": {
+    "website": "https://stride.zone/",
+    "telegram": "",
+    "discord": "https://stride.zone/discord",
+    "twitter": "https://twitter.com/stride_zone",
+    "medium": "https://stride.zone/blog",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/Stride-Labs/stride",
+    "docs": "https://docs.stride.zone/",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 14,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/stride/images/stride-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

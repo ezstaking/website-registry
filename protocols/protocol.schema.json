@@ -10,14 +10,12 @@
     "slug",
     "appSlug",
     "status",
-    "denom",
+    "symbol",
     "stage",
     "validatorAddress",
     "validateSince",
     "links",
     "info",
-    "stakingGuides",
-    "faq",
     "logo",
     "colors"
   ],
@@ -45,7 +43,7 @@
         "upcoming"
       ]
     },
-    "denom": {
+    "symbol": {
       "type": "string"
     },
     "stage": {
@@ -68,12 +66,6 @@
     "info": {
       "$ref": "#/$defs/info"
     },
-    "stakingGuides": {
-      "$ref": "#/$defs/stakingGuides"
-    },
-    "faq": {
-      "$ref": "#/$defs/faq"
-    },
     "logo": {
       "$ref": "#/$defs/logo"
     },
@@ -84,6 +76,12 @@
   "$defs": {
     "links": {
       "type": "object",
+      "required": [
+        "website", "telegram", "discord", "twitter",
+        "github", "medium", "reddit", "youtube",
+        "email", "linkedin", "instagram", "facebook",
+        "docs", "commonwealth"
+      ],
       "properties": {
         "website": {
           "type": "string"
@@ -123,6 +121,9 @@
         },
         "docs": {
           "type": "string"
+        },
+        "commonwealth": {
+          "type": "string"
         }
       },
       "additionalProperties": false
@@ -147,48 +148,6 @@
       },
       "additionalProperties": false
     },
-    "faqItem": {
-      "type": "object",
-      "required": ["question", "answer"],
-      "properties": {
-        "question": {
-          "type": "string"
-        },
-        "answer": {
-          "type": "string"
-        }
-      },
-      "additionalProperties": false
-    },
-    "faq": {
-      "type": "object",
-      "required": [
-        "en",
-        "fr",
-        "es"
-      ],
-      "properties": {
-        "en": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/faqItem"
-          }
-        },
-        "fr": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/faqItem"
-          }
-        },
-        "es": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/faqItem"
-          }
-        }
-      },
-      "additionalProperties": false
-    },
     "info": {
       "type": "object",
       "required": [
@@ -200,31 +159,38 @@
       ],
       "properties": {
         "rewards": {
-          "type": "string"
+          "type": "number",
+          "enum": [
+            0
+          ],
+          "description": "Distributed automatically every block"
         },
         "slashing": {
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 0,
+          "maxItems": 2,
+          "description": "No slashing penalties | {d[0]}% Slash Fraction Doublesign - {d[1]} Slash Fraction Downtime"
         },
         "inflation": {
-          "type": "string"
+          "type": "number",
+          "enum": [
+            0
+          ],
+          "description": "Deflationary based on staking participation"
         },
         "unbonding": {
-          "type": "string"
+          "type": "number",
+          "description": "no unbonding period | {d} day unbonding period | {d} days unbonding period"
         },
         "compounding": {
-          "type": "string"
-        }
-      },
-      "additionalProperties": false
-    },
-    "stakingGuides": {
-      "type": "object",
-      "required": [
-        "medium"
-      ],
-      "properties": {
-        "medium": {
-          "type": "string"
+          "type": "number",
+          "enum": [
+            0
+          ],
+          "description": "New delegation required"
         }
       },
       "additionalProperties": false

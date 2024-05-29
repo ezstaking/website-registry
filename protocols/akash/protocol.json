@@ -4,15 +4,15 @@
   "slug": "akash",
   "appSlug": "akash",
   "status": "active",
-  "denom": "akt",
+  "symbol": "akt",
   "stage": 1,
   "validatorAddress": "akashvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawua3kt9",
-  "validateSince": "",
+  "validateSince": "2021-05-31",
   "colors": {
     "background": [
       "linear-gradient(127deg, #FF414B 0%, #010101 100%)"
     ],
-    "filter": "",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#FF414B\",endColorstr=\"#010101\",GradientType=1)",
     "color": ""
   },
   "links": {
@@ -20,28 +20,30 @@
     "telegram": "https://t.me/AkashNW",
     "discord": "https://discord.com/invite/akash",
     "twitter": "https://x.com/akashnet_",
-    "medium": "https://akash.network/blog",
     "github": "https://github.com/ovrclk",
-    "docs": "https://docs.akash.network"
+    "medium": "https://akash.network/blog",
+    "reddit": "",
+    "youtube": "https://www.youtube.com/c/AkashNetwork",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "docs": "https://docs.akash.network",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/akash/akash-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/akash/images/akash-logo--colorless.svg",
       "size": {
         "width": "50px",
         "height": "43.33px"

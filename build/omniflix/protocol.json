@@ -1,0 +1,50 @@
+{
+  "name": "OmniFlix Network",
+  "slug": "omniflix",
+  "appSlug": "omniflix",
+  "status": "active",
+  "symbol": "flix",
+  "stage": 1,
+  "validatorAddress": "omniflixvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtg305r",
+  "validateSince": "",
+  "colors": {
+    "background": [],
+    "filter": "",
+    "color": "#DD5A56"
+  },
+  "links": {
+    "website": "https://omniflix.network/",
+    "telegram": "https://t.me/OmniFlixNetwork",
+    "discord": "https://discord.com/invite/6gdQ4yZSTC",
+    "twitter": "https://twitter.com/OmniFlixNetwork",
+    "medium": "https://mirror.xyz/OmniFlixNetwork.eth",
+    "reddit": "",
+    "youtube": "",
+    "email": "info@omniflix.network",
+    "linkedin": "",
+    "instagram": "https://www.instagram.com/OmniFlixNetwork/",
+    "facebook": "https://www.facebook.com/OmniFlixNetwork",
+    "github": "https://github.com/OmniFlix",
+    "docs": "https://docs.omniflix.network/",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/omniflixhub/images/omniflixhub-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "50px"
+      }
+    }
+  }
+}

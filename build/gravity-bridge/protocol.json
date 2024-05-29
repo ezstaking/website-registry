@@ -1,0 +1,52 @@
+{
+  "name": "Gravity Bridge",
+  "slug": "gravity-bridge",
+  "appSlug": "gravitybridge",
+  "status": "active",
+  "symbol": "grav",
+  "stage": 1,
+  "validatorAddress": "gravityvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwle3df",
+  "validateSince": "",
+  "colors": {
+    "background": [
+      "linear-gradient(124deg, #0E32A1 0%, #1C1E1F 100%)"
+    ],
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#0E32A1\",endColorstr=\"#1C1E1F\",GradientType=1)",
+    "color": ""
+  },
+  "links": {
+    "website": "https://www.gravitybridge.net/",
+    "telegram": "",
+    "discord": "https://discord.gg/d3DshmHpXA",
+    "twitter": "https://twitter.com/gravity_bridge",
+    "medium": "https://www.gravitybridge.net/blog",
+    "reddit": "",
+    "youtube": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/Gravity-Bridge",
+    "docs": "",
+    "commonwealth": ""
+  },
+  "info": {
+    "rewards": 0,
+    "slashing": [
+      0.03,
+      1
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
+  },
+  "logo": {
+    "svg": {
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/gravitybridge/images/gravitybridge-logo--colorless.svg",
+      "size": {
+        "width": "50px",
+        "height": "19.04px"
+      }
+    }
+  }
+}

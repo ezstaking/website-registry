@@ -12,13 +12,12 @@ EZ Staking ∞ Website Registry 📚
 |**slug**|`string`||yes|
 |**appSlug**|`string`||yes|
 |**status**|`string`|Enum: `"active"`, `"inactive"`, `"upcoming"`<br/>|yes|
-|**denom**|`string`||yes|
+|**symbol**|`string`||yes|
 |**stage**|`number`|[0: testnet, 1: mainnet]<br/>Enum: `0`, `1`<br/>|yes|
 |**validatorAddress**|`string`||yes|
+|**validateSince**|`string`||yes|
 |[**links**](#links)|`object`||yes|
 |[**info**](#info)|`object`||yes|
-|[**stakingGuides**](#stakingguides)|`object`||yes|
-|[**faq**](#faq)|`object`||yes|
 |[**logo**](#logo)|`object`||yes|
 |[**colors**](#colors)|`object`||yes|
 
@@ -30,18 +29,20 @@ EZ Staking ∞ Website Registry 📚
 
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
-|**website**|`string`|||
-|**telegram**|`string`|||
-|**discord**|`string`|||
-|**twitter**|`string`|||
-|**github**|`string`|||
-|**medium**|`string`|||
-|**reddit**|`string`|||
-|**youtube**|`string`|||
-|**email**|`string`|||
-|**linkedin**|`string`|||
-|**instagram**|`string`|||
-|**facebook**|`string`|||
+|**website**|`string`||yes|
+|**telegram**|`string`||yes|
+|**discord**|`string`||yes|
+|**twitter**|`string`||yes|
+|**github**|`string`||yes|
+|**medium**|`string`||yes|
+|**reddit**|`string`||yes|
+|**youtube**|`string`||yes|
+|**email**|`string`||yes|
+|**linkedin**|`string`||yes|
+|**instagram**|`string`||yes|
+|**facebook**|`string`||yes|
+|**docs**|`string`||yes|
+|**commonwealth**|`string`||yes|
 
 **Additional Properties:** not allowed  
 <a name="info"></a>
@@ -51,50 +52,24 @@ EZ Staking ∞ Website Registry 📚
 
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
-|**rewards**|`string`||yes|
-|**slashing**|`string`||yes|
-|**inflation**|`string`||yes|
-|**unbonding**|`string`||yes|
-|**compounding**|`string`||yes|
+|**rewards**|`number`|Distributed automatically every block<br/>Enum: `0`<br/>|yes|
+|[**slashing**](#infoslashing)|`number[]`|No slashing penalties \| {d[0]}% Slash Fraction Doublesign - {d[1]} Slash Fraction Downtime<br/>|yes|
+|**inflation**|`number`|Deflationary based on staking participation<br/>Enum: `0`<br/>|yes|
+|**unbonding**|`number`|no unbonding period \| {d} day unbonding period \| {d} days unbonding period<br/>|yes|
+|**compounding**|`number`|New delegation required<br/>Enum: `0`<br/>|yes|
 
 **Additional Properties:** not allowed  
-<a name="stakingguides"></a>
-## stakingGuides: object
+<a name="infoslashing"></a>
+### info\.slashing\[\]: array
 
-**Properties**
+No slashing penalties | {d[0]}% Slash Fraction Doublesign - {d[1]} Slash Fraction Downtime
 
-|Name|Type|Description|Required|
-|----|----|-----------|--------|
-|**medium**|`string`||yes|
-
-**Additional Properties:** not allowed  
-<a name="faq"></a>
-## faq: object
-
-**Properties**
-
-|Name|Type|Description|Required|
-|----|----|-----------|--------|
-|[**en**](#faqen)|`array`||yes|
-|[**fr**](#faqfr)|`array`||yes|
-|[**es**](#faqes)|`array`||yes|
-
-**Additional Properties:** not allowed  
-<a name="faqen"></a>
-### faq\.en\[\]: array
 
 **Items**
 
-<a name="faqfr"></a>
-### faq\.fr\[\]: array
-
-**Items**
-
-<a name="faqes"></a>
-### faq\.es\[\]: array
-
-**Items**
-
+**Item Type:** `number`  
+**Minimum Items:** 0  
+**Maximum Items:** 2  
 <a name="logo"></a>
 ## logo: object
 

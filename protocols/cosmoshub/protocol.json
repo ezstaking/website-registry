@@ -4,7 +4,7 @@
   "slug": "cosmos",
   "appSlug": "cosmoshub",
   "status": "active",
-  "denom": "atom",
+  "symbol": "atom",
   "stage": 1,
   "validatorAddress": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
   "validateSince": "",
@@ -13,7 +13,7 @@
       "#511F60",
       "linear-gradient(53deg, #511F60 0%, #A2F6FF 100%)"
     ],
-    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#511f60\",endColorstr=\"#a2f6ff\",GradientType=1)",
+    "filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#511F60\",endColorstr=\"#A2F6FF\",GradientType=1)",
     "color": "#98DCEC"
   },
   "links": {
@@ -21,30 +21,30 @@
     "telegram": "https://t.me/cosmosproject",
     "discord": "https://discord.gg/cosmosnetwork",
     "twitter": "https://twitter.com/cosmos",
+    "medium": "https://blog.cosmos.network/",
     "reddit": "https://reddit.com/r/cosmosnetwork",
     "youtube": "https://www.youtube.com/c/CosmosProject",
-    "medium": "https://blog.cosmos.network/",
-    "github": "",
-    "docs": ""
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": "",
+    "github": "https://github.com/cosmos",
+    "docs": "https://docs.cosmos.network/",
+    "commonwealth": ""
   },
   "info": {
-    "rewards": "",
-    "slashing": "",
-    "inflation": "",
-    "unbonding": "",
-    "compounding": ""
-  },
-  "stakingGuides": {
-    "medium": ""
-  },
-  "faq": {
-    "en": [],
-    "fr": [],
-    "es": []
+    "rewards": 0,
+    "slashing": [
+      0.01,
+      5
+    ],
+    "inflation": 0,
+    "unbonding": 21,
+    "compounding": 0
   },
   "logo": {
     "svg": {
-      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/cosmoshub/cosmoshub-logo--colorless.svg",
+      "url": "https://raw.githubusercontent.com/EZStaking/website-registry/main/protocols/cosmoshub/images/cosmoshub-logo--colorless.svg",
       "size": {
         "width": "50px",
         "height": "50px"
