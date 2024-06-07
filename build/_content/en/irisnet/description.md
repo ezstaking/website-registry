@@ -1,6 +1,6 @@
 ---
 published: true
 ---
-IRISnet is a service protocol and cryptocurrency, which was officially launched on Mar. 1, 2019. The primary purpose of the IRISnet protocol is to provide a blockchain-based, open network to small and medium businesses that are offering a wide variety of services.
+IRISnet is an Interchain Service Hub for next-gen dApps. It built using the Cosmos SDK and through collaborative efforts from open-source developers within the Cosmos ecosystem.
 
-According to the official IRISnet Whitepaper, the protocol aims to employ different public and consortium blockchains to bring the power of decentralized, open networks to thousands of businesses and freelance service providers. Interestingly, IRISnet was named after Iris, the personification of the rainbow and the messenger of the Gods in Greek mythology.
+Initially funded by the Interchain Foundation, IRISnet was the first network to establish IBC connections with the Cosmos Hub. Apart from IBC, IRISnet also supports EVM, NFT, iService modules, and many other modules that facilitate the development of interchain dApps. It empowers dApps by providing seamless interoperability across major public chains and on-and-off-chain systems.
