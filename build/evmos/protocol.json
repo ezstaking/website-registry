@@ -6,7 +6,7 @@
   "symbol": "evmos",
   "stage": 1,
   "validatorAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
-  "validateSince": "",
+  "validateSince": "2022-03-02",
   "colors": {
     "background": [
       "linear-gradient(122deg, #6421A4 0%, #E26B35 100%)"

@@ -6,7 +6,7 @@
   "symbol": "cheq",
   "stage": 1,
   "validatorAddress": "cheqdvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw2vq30x",
-  "validateSince": "",
+  "validateSince": "2021-12-12",
   "colors": {
     "background": [
       "linear-gradient(127deg, #EB5E2A 0%, #EF8A38 100%)"

@@ -6,7 +6,7 @@
   "symbol": "cmdx",
   "stage": 1,
   "validatorAddress": "comdexvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw0u289r",
-  "validateSince": "",
+  "validateSince": "2021-11-20",
   "colors": {
     "background": [
       "linear-gradient(127deg, #F93E59 0%, #021A32 100%)"

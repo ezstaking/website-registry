@@ -6,7 +6,7 @@
   "symbol": "nois",
   "stage": 1,
   "validatorAddress": "noisvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtvauhe",
-  "validateSince": "",
+  "validateSince": "2023-03-28",
   "colors": {
     "background": [
       "linear-gradient(303deg, #DFDBED 0%, #0B0913 100%)"

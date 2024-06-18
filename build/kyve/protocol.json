@@ -6,7 +6,7 @@
   "symbol": "kyve",
   "stage": 1,
   "validatorAddress": "kyvevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw76lp8n",
-  "validateSince": "",
+  "validateSince": "2023-03-15",
   "colors": {
     "background": [
       "linear-gradient(124deg, #5C9288 0%, #293134 100%)"

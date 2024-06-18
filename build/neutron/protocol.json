@@ -6,7 +6,7 @@
   "symbol": "ntrn",
   "stage": 1,
   "validatorAddress": "neutronvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9xzv7k",
-  "validateSince": "",
+  "validateSince": "2023-05-10",
   "colors": {
     "background": [
       "linear-gradient(124deg, #59A187 0%, #212C28 100%) "

@@ -6,7 +6,7 @@
   "symbol": "pasg",
   "stage": 1,
   "validatorAddress": "pasgvaloper1qna9kjh9cq9sa0pd3c9ltfjjtxs5knsysl3cc2",
-  "validateSince": "",
+  "validateSince": "2022-08-19",
   "colors": {
     "background": [
       "linear-gradient(124deg, #726852 0%, #653B2E 100%)"

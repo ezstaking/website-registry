@@ -6,7 +6,7 @@
   "symbol": "stars",
   "stage": 1,
   "validatorAddress": "starsvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawyx37ju",
-  "validateSince": "",
+  "validateSince": "2021-10-29",
   "colors": {
     "background": [
       "linear-gradient(124deg, #FAF4AA 0%, #77ABBF 100%)"
