@@ -7,7 +7,7 @@
   "symbol": "strd",
   "stage": 1,
   "validatorAddress": "stridevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawm6kh6u",
-  "validateSince": "",
+  "validateSince": "2022-09-04",
   "colors": {
     "background": [
       "linear-gradient(124deg, #D32F79 0%, #530C2C 100%)"

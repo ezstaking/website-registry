@@ -7,7 +7,7 @@
   "symbol": "juno",
   "stage": 1,
   "validatorAddress": "junovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawjt8r7s",
-  "validateSince": "",
+  "validateSince": "2021-10-01",
   "colors": {
     "background": [
       "rgb(255,164,163)",
