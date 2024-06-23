@@ -2,7 +2,7 @@
   "$schema": "../protocol.schema.json",
   "name": "Nym Network",
   "slug": "nym",
-  "appSlug": "nym",
+  "appSlug": "nyx",
   "status": "active",
   "symbol": "nym",
   "stage": 1,
