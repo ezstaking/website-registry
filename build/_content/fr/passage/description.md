@@ -30,7 +30,7 @@ Passage aims to create a uniquely open and transparent social platform, with key
 
 PASG is the native token of the Passage ecosystem, designed for:
 
-- Governance: PASG holders can participate in governance and vote on proposals related to the platform's direction and development 
+- Governance: PASG holders can participate in governance and vote on proposals related to the platform’s direction and development 
 - Security & Staking: PASG holders can stake and delegate their tokens to validators to support security of the network. A percentage of tokens spent in the marketplace, as well as inflation, are allocated as rewards. 
 - Incentivizing Open-Source Contributions: Developers can earn PASG by contributing to open-source development of the platform such as bug fixes, new features, and improvements to existing functionality. 
 - Decentralized Assets: PASG powers decentralized assets (NFTs) on the Passage platform. 
