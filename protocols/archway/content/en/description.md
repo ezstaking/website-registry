@@ -16,11 +16,7 @@ As a means of staying on the cutting edge, we are constantly improving our devel
 - **Tooling**: arch3.js is a JavaScript library that makes it easy for developers to build web applications and tools that interact with the Archway network. The Archway Developer CLI is a command-line tool for working on smart contracts.
 
 - **New Features**: Several new modules have been added to increase the feature set.
-
--- [Callback](https://docs.archway.io/developers/guides/callback/introduction): Allows smart contracts to schedule transactions at designated block heights, enhancing automation and decreasing the dependency on intermediary solutions.
-
--- [CW-ICA](https://docs.archway.io/developers/guides/cw-ica/introduction): Enables smart contracts to register ICA accounts and submit transactions to be executed on counterparty chains connected to Archway via IBC.
-
--- [CW-Fees](https://docs.archway.io/developers/guides/cw-fees/introduction): Significantly enhances how dapps can cover transaction fees for accounts within the Archway ecosystem via their smart contracts, which was not possible with the native FeeGrant module.
-
--- [CW-Errors](https://docs.archway.io/developers/guides/cw-errors/introduction): Provides a standardized way for smart contracts to handle errors related to transactions initiated by the Archway protocol, which could occur via the Callback or CW-ICA modules.
+  - [Callback](https://docs.archway.io/developers/guides/callback/introduction): Allows smart contracts to schedule transactions at designated block heights, enhancing automation and decreasing the dependency on intermediary solutions.
+  - [CW-ICA](https://docs.archway.io/developers/guides/cw-ica/introduction): Enables smart contracts to register ICA accounts and submit transactions to be executed on counterparty chains connected to Archway via IBC.
+  - [CW-Fees](https://docs.archway.io/developers/guides/cw-fees/introduction): Significantly enhances how dapps can cover transaction fees for accounts within the Archway ecosystem via their smart contracts, which was not possible with the native FeeGrant module.
+  - [CW-Errors](https://docs.archway.io/developers/guides/cw-errors/introduction): Provides a standardized way for smart contracts to handle errors related to transactions initiated by the Archway protocol, which could occur via the Callback or CW-ICA modules.
