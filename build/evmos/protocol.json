@@ -2,7 +2,7 @@
   "name": "Evmos",
   "slug": "evmos",
   "appSlug": "evmos",
-  "status": "active",
+  "status": "inactive",
   "symbol": "evmos",
   "stage": 1,
   "validatorAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
